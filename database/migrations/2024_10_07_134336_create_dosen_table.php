@@ -13,7 +13,7 @@ return new class extends Migration {
             $table->date('tgl_mulai_tugas');
             $table->string('jenjang_pendidikan', 10);
             $table->string('bidang_keilmuan', 50);
-            $table->string('foto_dosen', 50)->nullable(); // Can be nullable if photo isn't required
+            $table->string('foto_dosen', 50)->nullable();
             $table->timestamps();
         });
     }
